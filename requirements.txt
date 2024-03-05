@@ -4,4 +4,4 @@ pandas
 numpy
 datetime
 plotly
-pandas_datareader
+pandas_datareader 
