@@ -18,7 +18,7 @@ def daily_return(df):
     df_daily_return=df.copy()
     for i in df.columns[1:]:
         for j in range(1,len(df)):
-            df[i][j]=((df[i][j]-df[i][j-1])/df[i][j-1])*100
+            df[i][j]=((df[i][j]-df[i][j-1])/df[i][j-1])*100 #todayssprice-previous days price
         df[i][0]=0
     return df_daily_return
 
