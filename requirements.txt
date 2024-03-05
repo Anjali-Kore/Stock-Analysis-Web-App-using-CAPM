@@ -3,3 +3,4 @@ streamlit
 pandas
 numpy
 plotly
+pandas_datareader
