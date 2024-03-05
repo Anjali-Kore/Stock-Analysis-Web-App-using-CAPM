@@ -2,5 +2,6 @@ yfinance
 streamlit
 pandas
 numpy
+datetime
 plotly
 pandas_datareader
